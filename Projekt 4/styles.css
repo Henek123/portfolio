@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+}
+.anchor{
+    padding-top:90px;
+    margin-top:-90px;
+}
+#header{
+    display:flex;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color:rgb(227, 224, 219);
+}
+.logo{
+    width:50%;
+}
+#header-img{
+    height:80px;
+    display:flex;
+    justify-content: flex-start;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right:0;
+    height:100%;
+    width:45%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(71, 71, 71);
+    text-decoration: none;
+    font-size: 20px;
+    width:20%;
+    height:50%;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color:rgb(71, 71, 71);
+    color:rgb(227, 224, 219);
+}
+body{
+    margin-top:100px;
+}
+h1{
+    font-size:34px;
+}
+.hero, form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin-top:10px;
+}
+#email{
+    height:2em;
+    width:300px;
+    font-size:14px;
+}
+#submit{
+    width:100px;
+    height:30px;
+    background-color:#f1c40f;
+    border:0;
+    border-radius:5px;
+    font-size:16px;
+    margin-bottom:50px;
+}
+#features{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size:28px;
+    padding-bottom:10px;
+}
+.features-div{
+    width:60%;
+    padding:15px 0;
+    display:flex;
+}
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc{
+    width:80%;
+}
+.fa-solid{
+    font-size:3em;
+    color:orange;
+    align-items: center;
+}
+.features-div p{
+    font-size:18px;
+}
+#example{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+}
+#products{
+    margin-top:80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.guitar{
+    width:20%;
+    height:300px;
+    margin:0 20px;
+    border:1px solid black;
+}
+.guitar-type{
+    background-color:rgb(227, 224, 219);
+    height:4em;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guitar h3{
+    font-size:24px;
+    text-align: center;
+}
+.guitar h4{
+    text-align: center;
+    font-size:22px;
+    padding:0.5em;
+}
+.guitar p{
+    padding:0 20px;
+    font-size:16px;
+    height:35%;
+}
+.guitar button{
+    display:block;
+    margin:auto;
+    bottom:10px;
+    width:40%;
+    height:3em;
+    background-color: #f1c40f;
+    border:0;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-size:16px;
+    cursor:pointer;
+}
+footer{
+    margin-top:40px;
+    height:40px;
+    background-color:rgb(227, 224, 219);
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+footer a{
+    text-decoration: none;
+}
+@media (max-width:1200px){
+    .guitar{
+        width:30%;
+        margin:20px 20px;
+    }
+
+}
+@media (max-width:760px){
+    .guitar{
+        width:50%;
+        margin-bottom:20px;
+    }
+    #nav-bar{
+        width:70%;
+    }
+    .logo
+    {
+        width:30%;
+    }
+}
