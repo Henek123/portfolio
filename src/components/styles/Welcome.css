@@ -1,0 +1,21 @@
+.welcome-section{
+  background-color: var(--light-navy);
+  height: calc(100vh - 76px);
+  color: var(--dark-gray);
+  margin-top: 76px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-container{
+  max-width: 800px;
+  position: relative;
+  top: -80px;
+  text-align: center;
+}
+.welcome-container > h1{
+  color: var(--white);
+  font-size: 44px;
+  margin-bottom: 10px;
+}

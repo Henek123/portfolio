@@ -1,0 +1,22 @@
+.contact-section{
+  height: calc(100vh - 78px - 60px);
+  background-color: var(--white);
+  color: var(--navy);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section h1{
+  font-size: 56px;
+}
+.icon-container{
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  width: 60px;
+}
+.hyperlink{
+  margin: 2rem;
+}

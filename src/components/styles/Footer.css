@@ -1,0 +1,10 @@
+footer{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  background-color: var(--light-navy);
+  color: var(--white);
+  box-shadow: 0px 2px 10px var(--navy);
+}

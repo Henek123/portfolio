@@ -1,0 +1,15 @@
+.projects-section{
+  min-height: calc(100vh - 76px);
+  background-color: var(--light-navy);
+  color: var(--white);
+}
+.projects-container{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projects-section > h1 {
+  padding-top: 2rem;
+}
