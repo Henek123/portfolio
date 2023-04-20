@@ -1,5 +1,5 @@
 .project{
-  width: 80%;
+  width: 90%;
   margin: 2rem;
   color: var(--white);
   border-radius: 1em;
@@ -38,4 +38,38 @@
   text-decoration: none;
   font-size: 18px;
   margin: 2em 0;
+}
+@media screen and (max-width: 1400px){
+  .project{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+    margin-top: 4em;
+    text-align: center;
+    padding: 0;
+  }
+  .project .skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-details{
+    width: 100%;
+  }
+  .project-details p{
+    text-align: center;
+  }
+  .preview{
+    margin: 1em 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px){
+  .description{
+    font-size: 20px;
+  }
+  .project h1{
+    font-size: 30px;
+  }
 }

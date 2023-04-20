@@ -1,6 +1,6 @@
 .welcome-section{
   background-color: var(--light-navy);
-  height: calc(100vh - 76px);
+  min-height: calc(100vh - 76px);
   color: var(--dark-gray);
   margin-top: 76px;
   display: flex;

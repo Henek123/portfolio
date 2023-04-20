@@ -16,7 +16,6 @@ export default function Projects() {
       live={projects.live}
     />
   ))
-  console.log(projects)
   return (
     <section className='projects-section'>
       <p className='anchor' id='projects'></p>

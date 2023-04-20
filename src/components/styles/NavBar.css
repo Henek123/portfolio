@@ -29,3 +29,16 @@
 .nav-btn:visited:hover{
   color: var(--navy);
 }
+@media screen and (max-width: 650px){
+  .nav-bar{
+    justify-content: space-around;
+  }
+  .nav-btn{
+    margin: 1em 0.125em;
+  }
+}
+@media screen and (max-width: 400px){
+  .nav-btn{
+    padding: 0.5em 0.5em;
+  }
+}

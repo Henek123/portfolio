@@ -30,7 +30,7 @@ export default function About() {
             <p className='skill'>GraphQl</p>
           </div>
         </div>
-        <img style={{marginLeft: '1.5rem', width: '100%', height: '100%'}} src={photo} alt='myself'></img>
+        <img className='photo' src={photo} alt='myself'></img>
      </div>
     </section>
   )

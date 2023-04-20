@@ -13,10 +13,17 @@
 .icon-container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .icon{
   width: 60px;
 }
 .hyperlink{
   margin: 2rem;
+}
+@media screen and (max-width: 600px){
+  .contact-section h1{
+    font-size: 40px;
+  }
 }
